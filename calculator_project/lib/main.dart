@@ -46,6 +46,22 @@ class MyHomePage extends StatelessWidget {
               ),
               elevation: 5,
             ),
+          ),
+          Container(
+            width: double.infinity,
+            child: Padding(
+              padding: const EdgeInsets.all(80.0),
+              child: RaisedButton(
+                color: Theme.of(context).primaryColorDark,
+                onPressed: null,
+                padding: EdgeInsets.all(8.0),
+                child: Text(
+                  "NEXT",
+                  style: TextStyle(
+                      color: Theme.of(context).primaryColorLight, fontSize: 28),
+                ),
+              ),
+            ),
           )
         ],
       ),
